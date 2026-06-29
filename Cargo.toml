@@ -1,0 +1,13 @@
+[package]
+name = "iarduino-i2c-motor-rs"
+version = "0.1.0"
+edition = "2024"
+description = "Rust driver for iarduino I2C motor controller (FLASH-I2C)"
+
+[dependencies]
+embedded-hal = "1.0.0"
+embedded-io = "0.7.1"
+embedded-io-async = { version = "0.7.0", optional = true }
+
+[features]
+async = ["dep:embedded-io-async"]
