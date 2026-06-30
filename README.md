@@ -99,4 +99,4 @@ motor.stop().await?;
 
 ## Лицензия
 
-MIT / Apache-2.0
+MIT
